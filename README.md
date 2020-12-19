@@ -31,7 +31,8 @@ This is not meant to be a thorough guide or walkthrough. It is merely a dump of 
 - Graphics（DP with Audio out, Up to 4K 60hz）		
 - Audio out		
 - Bluetooth		
-- Wifi			
+- Wifi	
+- Ethernet
 - Sleep		
 - etc……		
 
@@ -39,7 +40,8 @@ This is not meant to be a thorough guide or walkthrough. It is merely a dump of 
 
 - Most DRM does not work. This means no Apple TV shows, Hulu, Netflix (in Safari), Amazon Prime streaming, etc.
 This isn't specific to the Dell CB13. DRM simply does not work on an iGPU only Hackintosh			
-- Microphone		
+- Microphone	
+- airdrop handoff
 
 ## To Do:
 
@@ -81,7 +83,7 @@ This isn't specific to the Dell CB13. DRM simply does not work on an iGPU only H
 
 - Follow the PlatformInfo portion of this guide to edit the config.plist		
 - You can use GenSMBIOS to generate the SMBIOS info		
-- Use a MacBookPro12,1 profile		
+- Use a MacMini7,1 profile		
 - In the config.plist, you need to fill in values for: SystemProductName, SystemSerialNumber, MLB, SystemUUID, and ROM		
 - Use your MAC address without the colons for the ROM field (You did get your MAC address, right?)		
 - Be sure to rename the config file to config.plist		
